@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: cadetblue;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(218, 112, 214);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+button:disabled {
+  background-color: rgb(214, 167, 213);
+  cursor: not-allowed;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+.result {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(121, 195, 199);
+  border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+Questão 1 – Qual o padrão de projeto é mais adequado para ser usado no desenvolvimento deste sistema?
+
+O padrão de projeto mais adequado é o padrão Composite, que é utilizado quando se deseja tratar objetos individuais e composições de objetos de maneira uniforme, permitindo que 
+clientes tratem objetos individuais e composições de objetos de maneira uniforme. No caso do sistema descrito, as palavras individuais podem ser consideradas objetos, e a 
+capacidade de modificar dinamicamente o aspecto delas faz necessário tratar tanto palavras individuais quanto composições de palavras de maneira uniforme. O método render 
+pode ser implementado de forma recursiva para percorrer todas as palavras e suas composições, aplicando as modificações de aspecto conforme necessário. Além disso, o método text 
+para converter o texto em uma cadeia de caracteres pode ser implementado de forma recursiva para percorrer todas as palavras e composições de palavras.
